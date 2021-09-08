@@ -1,0 +1,15 @@
+server:
+    port: 8080
+
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/pg_jwttest
+        username: pg
+        password: pg
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+
+jwt:
+    secret: JWT_SECRET
